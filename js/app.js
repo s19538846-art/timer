@@ -35,7 +35,7 @@ function tick() {
         sec = 0;
         mins++;
         console.log(
-       `${mins} mins's passed `
+       `${mins} mins've passed `
     );
     }
     
@@ -43,7 +43,7 @@ function tick() {
         mins = 0;
         hours++;
         console.log(
-            `${hours} hours's passed `);
+            `${hours} hours've passed `);
     }
 
     time.textContent = formatTime()
